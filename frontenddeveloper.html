@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+.background{
+    display: flex;
+    height: 100%;
+}
+.color1{
+    flex:3;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+padding: 20px;
+position: relative;
+overflow: hidden;    
+
+}
+.color2{
+    flex:1.5;
+    background-color: greenyellow;
+}
+.color1 h1{
+    font-weight:bolder;
+    margin: 0;
+}
+.color1 h3{
+color: white;
+text-align: center;
+margin: 0;
+padding: 0%;
+padding-top: 1.5%;
+
+
+}
+
+.image-between{
+    
+   
+    max-width: 100%;
+    max-height: 100%;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="background">
+        <div class="color1">
+            <h1 style="color: greenyellow;">Frotend Developer</h1>
+        <h3 class="subtext"> I like to craft solid and scalable frontend products </h3>
+        <h3 class="subtext" style="padding-top: 0;">with great user experience</h3>
+       
+        <img  src="https://images.hdqwalls.com/wallpapers/anime-girl-cherry-blossom-train-looking-away-4k-oc.jpg" class="image-between" alt="image">
+    
+    
+    
+    </div>
+        <div class="color2"></div>
+    </div>
+    
+</body>
+</html>
